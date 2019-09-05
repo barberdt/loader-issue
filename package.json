@@ -1,0 +1,23 @@
+{
+  "name": "loader-issue",
+  "version": "0.0.1",
+  "description": "Testing",
+  "main": "index.js",
+  "author": "barberdt@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "cache-loader": "^4.1.0",
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
